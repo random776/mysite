@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+  font-family: "游ゴシック Light", sans-serif;
+  font-size: 85%;
+  margin: 50px;
+  background-color: rgb(255, 255, 255);
+  line-height: 26px;
+}
+
+#bold {
+  font-size: 20px;
+}
+
+#bar {
+  border: 1px solid rgb(70, 79, 217);
+  width: 500px;
+}
+
+#chart_ {
+  width: 600px;
+}
+
+.color {
+    color: rgb(9, 9, 104);
+    font-size: 18px;
+}
