@@ -8,7 +8,7 @@ body {
 }
 
 .bold {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
@@ -23,5 +23,5 @@ body {
 
 .color {
     color: rgb(9, 9, 104);
-    font-size: 18px;
+    font-size: 1.2rem;
 }
