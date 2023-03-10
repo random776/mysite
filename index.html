@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1"></script>
   </head>
   <body>
-    <p class="bold">東京大学駒場キャンパス　ランゲルハンス棟</p>
+    <h1 class="bold">東京大学駒場キャンパス　ランゲルハンス棟</h1>
     <p>
       このページは、「ランゲルハンス棟」の活動名でwebページの作成などをしているプログラム初心者「かっちゃん」の練習帳・格納庫です。ゆっくりしていってね！
     </p>
@@ -89,7 +89,7 @@
       "2月",
       "3月",
     ];
-    const number = [7, 4, 11, 2, 0, 0, 0, 1, 5, 22, 9, 21, 14];
+    const number = [7, 4, 11, 2, 0, 0, 0, 1, 5, 22, 9, 21, 16];
     const total = number.reduce((sum, element) => sum + element, 0);
     msg.innerText = `合計ツイート数：${total}`;
     const myChart = new Chart(ctx, {
